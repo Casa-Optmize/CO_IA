@@ -6,7 +6,7 @@ sc = StandardScaler()
 IA = load_model('model_seqs2.h5')
 #IA Analizando um novo cliente
 dataClient = np.array([[48,22,4722,0,2,2341,2,1,1,4]])
-Client_01 = IA.predict(sc.transform(dataClient))
+Client_01 = IA.predict(sc.fit_transform(dataClient))
 for i in Client_01:
     if i[0] > 0.5:
             print('Cliente JOÃO possui: PERFIL O1')
