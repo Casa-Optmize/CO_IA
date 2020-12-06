@@ -23,7 +23,7 @@
 
 
 ### Dataset
-Os dados foram criados para a solução como MVP, lenvando as seguintes carácteisticas, que, a priori, serão coletadas do aplicativo.
+Os dados de 100 mil consumidores foram criados para a solução como MVP, lenvando as seguintes carácteisticas, que, a priori, serão coletadas do aplicativo.
 
 ##### INFORMAÇÕES DO FORM/APP UTILIZADAS NA IA
 ##### DADOS DE PERFIL/CADASTRO
@@ -126,5 +126,6 @@ Os dados foram criados para a solução como MVP, lenvando as seguintes carácte
 O modelo chega a apresentar acurácia de 99,9% para aprendizagem das correlações exitentes nas variáveis categóricas do estudo. A função loss chega a obter resultados de 4x10-7.
 Para os testes realizados com a inserção dos dados. Os resultados foram obtidos com êxito na identificação do Perfil do cliente simulado no código.
 
+##### Resultado para 100 mil dados de entrada com execução em 100 épocas.
 <img src="/Figure_1.png" alt="Koa middleware framework for nodejs"/>
 
