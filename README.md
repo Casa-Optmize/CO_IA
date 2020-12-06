@@ -1,16 +1,25 @@
 # INTELIGÊNCIA ARTIFICIAL PARA PREDIÇÃO DO PERFIL DE CONSUMIDORES
 
-#### Como Usar a Rede DEEP LEARNING Treinada
+### Como Usar a Rede DEEP LEARNING Treinada
 
 1. Download do git:https://github.com/Casa-Optmize/CO_IA
 2. Descompactar os arquivos em rar na pasta dados
 3. Abrir IA_memory.py como arquivo python 3.6 ou +
 
-#### Como treinar o modelo da IA
+### Como treinar o modelo da IA
 
 1. Download do https://github.com/Casa-Optmize/CO_IA.git
 2. Descompactar os arquivos em rar na pasta dados
 3. Abrir predict.py como arquivo python 3.6 ou +
+
+### Requirements mínimos da solução
+* Windows or Linux
+* Python 3.68 
+* Keras==2.4.3
+* matplotlib==3.3.2
+* numpy==1.18.5
+* sklearn==0.0
+* tensorflow==2.2
 
 
 ### Dataset
@@ -98,7 +107,7 @@ Os dados foram criados para a solução como MVP, lenvando as seguintes carácte
 
 
 
-#### Codigo de Treinamento da rede realiza as seguintes ações.
+### Codigo de Treinamento da rede realiza as seguintes ações.
 
 0. Usa o predict.py
 1. Na primeira etapa do codigo são criados dados randomicamente com características de usuários, conforme pesquisa.
@@ -106,13 +115,13 @@ Os dados foram criados para a solução como MVP, lenvando as seguintes carácte
 3. Entrada na IA
 4. Salva o modelo
 
-#### Codigo carregado no servidor.
+### Codigo carregado no servidor.
 
 0. Usa o IA_memory.py
 1. Carrega o modelo "model_seqs2.h5".
 2. Insere as características do novo usuário do app.
 3. Predição do Perfil do Usuário - Para o caso de teste o perfil do usuário João foi identificado corretamente como 3.
 
-#### Resultados
+### Resultados
 O modelo chega a apresentar acurácia de 99,9% para aprendizagem das correlações exitentes nas variáveis categóricas do estudo. A função loss chega a obter resultados de 4x10-7.
 Para os testes realizados com a inserção dos dados. Os resultados foram obtidos com êxito na identificação do Perfil do cliente simulado no código.
