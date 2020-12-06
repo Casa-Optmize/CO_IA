@@ -1,8 +1,9 @@
 # CO_IA
 
-INFORMAÇÕES UTILIZADAS NA IA
-DADOS DE PERFIL/CADASTRO
-Idade: até 28, 29-36, 37-44, 45-52, 53-60, acima de 60
+##INFORMAÇÕES UTILIZADAS NA IA
+###DADOS DE PERFIL/CADASTRO
+
+-Idade: até 28, 29-36, 37-44, 45-52, 53-60, acima de 60
 Localização/cep: 0-26
 Faixa Salarial: Até um salário mínimo, mais de 1 a 3, mais de 3 a 5, acima de 5
 Estado civil: Casado, solteiro
