@@ -10,7 +10,7 @@
 
 1. Download do https://github.com/Casa-Optmize/CO_IA.git
 2. Descompactar os arquivos em rar na pasta dados
-3. Abrir predict.py como arquivo python 3.6 ou +
+3. Abrir Predict.py como arquivo python 3.6 ou +
 
 ### Requirements mínimos da solução
 * Windows or Linux
@@ -109,7 +109,7 @@ Os dados foram criados para a solução como MVP, lenvando as seguintes carácte
 
 ### Codigo de Treinamento da rede realiza as seguintes ações.
 
-0. Usa o predict.py
+0. Usa o Predict.py
 1. Na primeira etapa do codigo são criados dados randomicamente com características de usuários, conforme pesquisa.
 2. Distribuição dos dados para treino e teste e padronização dos dados em uma escala de 0 a 1.
 3. Entrada na IA
@@ -125,3 +125,5 @@ Os dados foram criados para a solução como MVP, lenvando as seguintes carácte
 ### Resultados
 O modelo chega a apresentar acurácia de 99,9% para aprendizagem das correlações exitentes nas variáveis categóricas do estudo. A função loss chega a obter resultados de 4x10-7.
 Para os testes realizados com a inserção dos dados. Os resultados foram obtidos com êxito na identificação do Perfil do cliente simulado no código.
+<img>
+
