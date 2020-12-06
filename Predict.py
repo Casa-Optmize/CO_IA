@@ -136,7 +136,7 @@ from tensorflow.keras import regularizers
 input_dim = X_train.shape[1]
 output_dim = y_train.shape[1]
 
-nb_epoch = 10
+nb_epoch = 100
 batch_size = 32
 input_layer = Input(shape=(input_dim,))
 
