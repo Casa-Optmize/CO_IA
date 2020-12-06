@@ -1,14 +1,32 @@
-# CO_IA
+# INTELIGÊNCIA ARTIFICIAL PARA PREDIÇÃO DO PERFIL DE CONSUMIDORES
 
-## INFORMAÇÕES UTILIZADAS NA IA
-#### DADOS DE PERFIL/CADASTRO
+#### Como Usar a Rede DEEP LEARNING Treinada
+
+1. Download do git:https://github.com/Casa-Optmize/CO_IA
+2. Descompactar os arquivos em rar na pasta dados
+3. Abrir IA_memory.py como arquivo python 3.6 ou +
+
+#### Como treinar o modelo da IA
+
+1. Download do https://github.com/Casa-Optmize/CO_IA.git
+2. Descompactar os arquivos em rar na pasta dados
+3. Abrir predict.py como arquivo python 3.6 ou +
+
+
+### Dataset
+Os dados foram criados para a solução como MVP, lenvando as seguintes carácteisticas, que, a priori, serão coletadas do aplicativo.
+
+##### INFORMAÇÕES DO FORM/APP UTILIZADAS NA IA
+##### DADOS DE PERFIL/CADASTRO
 
 - Idade: até 28, 29-36, 37-44, 45-52, 53-60, acima de 60
 - Localização/cep: 0-26
 - Faixa Salarial: Até um salário mínimo, mais de 1 a 3, mais de 3 a 5, acima de 5
 - Estado civil: Casado=1, solteiro=0
 
-#### DADOS DA COMPRA.
+
+
+##### DADOS DA COMPRA.
 - O que deseja comprar: Produto 1 a Produto 6
 - Valor máximo: 800 a 15000
 - Cor: Azul=4, branco=0, cinza=2, preto =1, marrom=3
@@ -77,3 +95,24 @@
 - Tecnologia: tecnológico
 - Utilidade: Completo
 - Estilos de Decoração: Luxuoso, Moderno, Industrial, Minimalista, Vintage.
+
+
+
+#### Codigo de Treinamento da rede realiza as seguintes ações.
+
+0. Usa o predict.py
+1. Na primeira etapa do codigo são criados dados randomicamente com características de usuários, conforme pesquisa.
+2. Distribuição dos dados para treino e teste e padronização dos dados em uma escala de 0 a 1.
+3. Entrada na IA
+4. Salva o modelo
+
+#### Codigo carregado no servidor.
+
+0. Usa o IA_memory.py
+1. Carrega o modelo "model_seqs2.h5".
+2. Insere as características do novo usuário do app.
+3. Predição do Perfil do Usuário - Para o caso de teste o perfil do usuário João foi identificado corretamente como 3.
+
+#### Resultados
+O modelo chega a apresentar acurácia de 99,9% para aprendizagem das correlações exitentes nas variáveis categóricas do estudo. A função loss chega a obter resultados de 4x10-7.
+Para os testes realizados com a inserção dos dados. Os resultados foram obtidos com êxito na identificação do Perfil do cliente simulado no código.
